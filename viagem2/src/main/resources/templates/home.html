@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Cadastro de Destino</title>
+	<!-- Link para o Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+		integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+	
+	
+	
+	<!-- Barra de Navegação Bootstrap -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Seu Logotipo</a>
+
+    <!-- Botões Cadastrar -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCadastrar" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Cadastrar
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownCadastrar">
+            <a class="dropdown-item" href="#">Cadastrar Destino</a>
+            <a class="dropdown-item" href="#">Cadastrar Cliente</a>
+          </div>
+        </li>
+
+        <!-- Botões Listagem -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownListagem" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Listagem
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownListagem">
+            <a class="dropdown-item" href="#">Clientes</a>
+            <a class="dropdown-item" href="#">Destinos</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Adicione o conteúdo da sua página abaixo -->
+  <div class="container">
+    <!-- Seu conteúdo aqui -->
+  </div>
+	
+	
+	
+	
+	
+<!--	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">-->
+<!--		<a class="navbar-brand" th:href="@{/destinos}">Listagem de Destinos</a>-->
+<!--		<a class="navbar-brand" th:href="@{/clientes}">Listagem de Clientes</a>-->
+<!--	</nav>-->
+
+<!--	<div class="container mt-3">-->
+<!--		<h2>Cadastro de Destino</h2>-->
+<!--		<form th:action="@{/destinos/save}" th:object="${destino}" method="post">-->
+<!--			<div class="form-group">-->
+<!--				<label for="nome">Nome:</label>-->
+<!--				<input type="text" id="nome" class="form-control" th:field="*{nome}" />-->
+<!--			</div>-->
+<!--			<div class="form-group">-->
+<!--				<label for="imgUrl">Url da Imagem:</label>-->
+<!--				<input type="text" id="imgUrl" class="form-control" th:field="*{imgUrl}" />-->
+<!--			</div>-->
+<!--			<div class="form-group">-->
+<!--				<label for="estado">Estado:</label>-->
+<!--				<input type="text" id="estado" class="form-control" th:field="*{estado}" />-->
+<!--			</div>-->
+<!--			<div class="form-group">-->
+<!--				<label for="pais">País:</label>-->
+<!--				<input type="text" id="pais" class="form-control" th:field="*{pais}" />-->
+<!--			</div>-->
+<!--			<div class="form-group">-->
+<!--				<label for="data">Data:</label>-->
+<!--				<input type="text" id="data" class="form-control" th:field="*{data}" />-->
+<!--			</div>-->
+<!--			<div class="form-group">-->
+<!--				<label for="valor">Valor:</label>-->
+<!--				<input type="text" id="valor" class="form-control" th:field="*{valor}" />-->
+<!--			</div>-->
+<!--			<button type="submit" class="btn btn-primary">Salvar</button>-->
+<!--		</form>-->
+<!--	</div>-->
+
+
+</body>
+
+</html>
