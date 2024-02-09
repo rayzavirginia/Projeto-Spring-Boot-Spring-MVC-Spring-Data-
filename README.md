@@ -3,7 +3,7 @@
 
 Uma aplicação WEB Agência de Viagens usando o Ecossistema Spring framework, com Front-end usando MVC ou ReactJS - Back-end com Java Spring Boot, Spring MVC, Persistência de Dados com Spring Data JPA. 
 
-Os projetos foram construídos no curso de Desenvolvedor Full Stack da Recode Pro, como requisito para obter a nota final do Módulo 5.
+O projeto foi construído no curso de Desenvolvedor Full Stack da Recode Pro, como requisito para obter a nota final do Módulo 5.
 
 ## Layout web
 ![Web 1](assets/ListaDestino.png)
